@@ -122,7 +122,7 @@ body{
   border-radius: 5px;
   background-color: rgba(200, 200, 200, 0.2);
   max-width: 350px;
-  height: 475px;
+  max-height: 500px;
 }
 .project-title{
   font-family: "Georgia";
@@ -203,4 +203,5 @@ body{
     grid-template-columns: 1fr;
   }
 }
+
 
