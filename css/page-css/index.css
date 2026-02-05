@@ -142,9 +142,13 @@ body{
   justify-content: center;
   text-align: center;
   word-break: break-word;
-  color: white;
   cursor: pointer;
   transition: background-color 1s ease;
+  color: white;
+}
+.tech, .writing{
+  text-decoration: none;
+  color: white;
 }
 .scroll-item:hover{
   background-color: lightgray;
@@ -226,5 +230,3 @@ body{
     padding-left: 1rem;
   }
 }
-
-
