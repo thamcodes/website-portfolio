@@ -123,6 +123,8 @@ body{
   background-color: rgba(200, 200, 200, 0.2);
   max-width: 350px;
   height: 500px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 .project-title{
   font-family: "Georgia";
@@ -205,6 +207,7 @@ body{
   .project-preview{
     max-height: 500px;
 }
+
 
 
 
