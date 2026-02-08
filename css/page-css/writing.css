@@ -144,8 +144,12 @@ body{
   .posts-grid{
     grid-template-columns: 1fr;
   }
+  .posts-preview{
+    margin-left: 3.5rem;
+  }
 
 }
+
 
 
 
