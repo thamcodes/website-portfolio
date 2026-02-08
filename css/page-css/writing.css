@@ -1,0 +1,147 @@
+/* Sizing the page*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Disabling text selection */
+body{
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Prevent horizontal scroll */
+html, body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Scroll behaviour */
+html{
+  scroll-behavior: smooth;
+}
+
+/* Background */
+#background-video{
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -2;
+}
+body{
+  background-color: black; /* fallback */
+}
+
+/* Page wrap */
+.page-wrap{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+  position: relative;
+}
+
+/* Heading */
+.heading-box{
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+}
+.heading{
+  color: white;
+  font-family: "Bitcount Single", sans-serif;
+  font-size: clamp(2.5rem, 4vw, 6rem);
+  text-align: center;
+}
+
+/* Description */
+.description-box{
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding: 1rem;
+  align-items: center;
+  color: white;
+  font-family: "Georgia";
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+/* Posts */
+.posts-text{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  color: white;
+  font-family: "Bitcount Single", sans-serif;
+  font-size: 30px;
+}
+.posts-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin-top: 2rem;
+}
+.posts-preview{
+  display: flex;
+  flex-direction: column;   /* stack title, info, skills vertically */
+  gap: 0.5rem;
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: rgba(200, 200, 200, 0.2);
+  max-width: 350px;
+  margin-right: 20px;
+  margin-bottom: 1rem;
+}
+.posts-title{
+  font-family: "Georgia";
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.posts-photo{
+  font-family: Georgia;
+  font-size: 15px;
+  line-height: 1.4;
+  text-align: justify;
+  margin-top: 1rem;
+  letter-spacing: 0.5px;
+  height: 200px;
+}
+.medium-box{
+  margin-top: 1rem;
+  letter-spacing: 0.5px;
+}
+.medium-link{
+  color: #7AB2B2;
+}
+
+/* Footer */
+.footer{
+  margin-top: 6rem;
+  text-align: center;
+  color: rgba(255,255,255,0.7);
+  font-size: 1rem;
+  font-family: "Georgia";
+   margin-bottom: 100px;
+}
+
+/* For Mobile */
+@media (max-width: 700px){
+  .description-box{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .posts-grid{
+    grid-template-columns: 1fr;
+  }
+}
