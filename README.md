@@ -8,14 +8,16 @@ I showcase my projects, skills and the things I’m learning as I grow into a be
 ### 🌐Live Website: 
 Visit my portfolio here: https://thamcodes.github.io/website-portfolio/
 
+
 ### 📋Contents:
 1. A short personal introduction
-2. My technical skill stack and a writing section
-3. A dedicated projects section
+2. My technical skill stack and projects
+3. My writing interests 
 4. Clean, minimal and responsive layouts
 5. A creative visual style inspired by space and technology
 
 As I upskill, I will keep adding to the pages and also make more pages. 
+
 
 ### 👩‍💻Tech Stack:
 1. HTML5
@@ -23,6 +25,7 @@ As I upskill, I will keep adding to the pages and also make more pages.
 3. Responsive layout with media queries
 4. Custom styling and animations
 5. Hosted using GitHub Pages
+   
 
 ### 🖇️Repository Structure
 ```text
@@ -48,6 +51,7 @@ portfolio/
 
 
 (No frameworks – built from scratch to strengthen fundamentals.)
+
 
 ### 🌸 A small note on usage
 This is my personal portfolio project.
