@@ -41,8 +41,11 @@ portfolio/
 │
 ├── css/
 │   ├── common-css/
+|           ├── header.css
 │   └── page-css/
-│
+│           ├── index.css
+|           ├── tech.css
+|           ├── writing.css
 ├── js/
 │
 ├── assets/
